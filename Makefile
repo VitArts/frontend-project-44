@@ -1,5 +1,8 @@
 test:
-	echo "Hello, $(HELLO)!"
+	echo "Hello"
+
+install:
+	npm ci
 
 brain-games:
 	node bin/brain-games.js
