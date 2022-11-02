@@ -4,5 +4,8 @@ test:
 install:
 	npm ci
 
-brain-games:
+bg:
 	node bin/brain-games.js
+
+publish:
+	npm publish --dry-run.
