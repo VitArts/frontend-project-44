@@ -1,9 +1,4 @@
-import readlineSync from 'readline-sync' 
-
-const answer = () => {
-	const even = readlineSync.question('Your answer: ')
-	return even
-}
+import answer from '../exp/answer.js'
 
 // Основная функция
 const brainEven = () => {
@@ -38,4 +33,4 @@ const brainEven = () => {
 }
 
 
-export {answer, brainEven}
+export default brainEven

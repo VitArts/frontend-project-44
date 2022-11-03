@@ -1,10 +1,10 @@
-import brainEven from '../src/games/even.js' 
+import brainCalk from '../src/games/calk.js' 
 import answer from '../src/exp/answer.js'
 import welcome from '../src/exp/cli.js'
 
 console.log('Welcome to the Brain Games!')
 console.log('Hello ' + welcome() + '!')
-console.log('Answer "yes" if the number is even, otherwise answer "no".')
+console.log('What is the result of the expression?')
 
 answer
-brainEven()
+brainCalk()
